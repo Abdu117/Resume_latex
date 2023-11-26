@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[super]{nth}
+\usepackage{parcolumns}\usepackage{hyperref} 
+ \hypersetup{ 
+     colorlinks=true, 
+     linkcolor=blue, 
+     filecolor=blue, 
+     citecolor = black,       
+     urlcolor=blue, 
+     } 
+\usepackage{fancyhdr}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingV}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+\fancyhf{}
+\fancyfoot[L]{\today}
+\pagestyle{fancy}
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape ABDELRAHMAN A. MAHMOUD} \\ \vspace{1pt}
+    \small Nasr City, Cairo, Egypt  $|$ +20 1270535270 \\ \vspace{1pt} \href{a.a.mahmoud1170@gmail.com}{\underline{a.a.mahmoud1170@gmail.com }} $|$ 
+    \href{https://www.linkedin.com/in/abdelrahman-ashraf-869998221/}{\underline{linkedin.com/in/abdelrahman}} $|$
+    \href{https://github.com/Abdu117}{\underline{github.com/Abdu117}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Helwan University} {Sep 2020 - Jul 2025}
+      { BSc. Computer Engineering}{ \textbf {Cumulative Grade: Distinct (88.5\%)}}
+      \resumeItemListStart
+        \resumeItem{Ranked \nth{1} out of 113 students in my freshman year and \nth{4} in the preparatory year.}
+        \resumeItemListEnd
+       {\textbf { Coursework} Data Structures \& Algorithms, Database Systems, Discrete Math, Statistics \& Probability,}\\ \vspace{1pt}
+       { \hspace{1.5mm}Numerical Analysis, Microprocessor \& Microcontroller, Software Engineering, VLSI Design \& Simulation.}
+
+    \resumeSubheadingV
+      {STEM High School for Boys \nth{6} of October}{Sep 2017 - Aug 2020} 
+    \vspace{-6mm}
+    \begin{parcolumns}{2}
+    \colplacechunks
+    \colchunk{\begin{itemize}\item Received the STEM Merit Scholarship.\end{itemize}}
+    \colchunk{\begin{itemize}\item Ranked 3rd out of 125 students in Grade 11.\end{itemize}}
+    \end{parcolumns}
+    
+  \resumeSubHeadingListEnd     
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Embedded C, Python, Java, HTML/CSS, JS, SQL, VHDL} \\
+     \textbf{Tools}{: VS Code, Eclipse, MS SQL Server, Git, Linux, Proteus, OOP \& Functional Programming, AVR (Atmega32), ARM (STM32f103 \& STM32f44re), STM32CubeIDE, Keil, Quartus Prime, FPGA} \\
+  
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Door Locker Security System} $|$ \emph{Individual Project, Supervised by Eng. Mohammed Tarek \href{https://github.com/Abdu117/Door_locker_security_system_using_ATmega32}{\underline{Github}}}}{Nov 2022}
+          \resumeItemListStart
+            \resumeItem{Used Atmega32 to implement a door locker system based on a layered architecture \textbf{(MCAL, HAL, App)}.}
+             \resumeItem{Utilized \textbf{Embedded C} to develop synchronous and timeout functions to prevent brute-force attacks and enhance system reliability.}
+            \resumeItem{Main Drivers used: \textbf{UART, I2C, SPI, EEPROM, Keypad}.}
+          
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{SwiftPay} $|$ \emph{Group Project, Database Class \href{https://github.com/Abdu117/SwiftPay_Billing_System}{\underline{Github}}}}{May 2023}
+          \resumeItemListStart
+            \resumeItem{Implemented a \textbf{Java} billing system app, backed by \textbf{MS SQL Server}, that empowers cashiers to generate customer bills; Used \textbf{Object Oriented Programming} and \textbf{UML} diagrams to design and implement.}
+           
+          \resumeItemListEnd
+
+     \resumeProjectHeading
+          {\textbf{Launtech Website} $|$ \emph{Group Project, Student Activity Work \href{https://github.com/Abdu117/LaunTech_website_project}{\underline{Github}}}}{Jul 2022}
+          \resumeItemListStart
+            \resumeItem{Created a website using \textbf{HTML, CSS, JS, PHP} to facilitate discovering and joining our team.}
+           
+          \resumeItemListEnd
+          
+  \resumeProjectHeading
+          {\textbf{16-Bit MIPS Processor} $|$ \emph{Group Project, Computer Architecture Class \href{https://github.com/Abdu117/MIPS_processor_using_VHDL}{\underline{Github}}}}{Dec 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented a processor using \textbf{VHDL} to perform 16 different operations besides 8 different arithmetic operations.}
+           
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+%-----------ACTIVITIES-----------
+\section{Extracurricular Activities}
+\resumeSubHeadingListStart
+      \resumeSubheadingV
+      {\textbf{GDSC Helwan}}{Fall 2022 - Spring 2023} 
+      \resumeItemListStart
+        \resumeItem
+        {Provided sessions teaching basics of C programming language and Embedded Systems concepts.}
+          \resumeItemListEnd
+
+          \resumeSubheadingV
+      {\textbf{Launtech Helwan}}{Fall 2022 - Present}
+       \resumeItemListStart
+            \resumeItem
+        {Collaborated with a team of developers to create and maintain Embedded Systems projects.}
+                  \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------HONERS-----------
+\section{Honors and Accomplishments}
+\resumeSubHeadingListStart
+      \resumeSubheadingV
+      {National Finalist at NASA Space Apps} {Oct 2023}
+            \resumeSubheadingV
+      {National Finalist at Intel ISEF}{February 2020}
+            \resumeSubheadingV
+    {Intel ISEF National and International Finalist} {May 2019}
+    \resumeItemListStart
+            \resumeItem{Ranked 1st in the Chemical Energy Category and 2nd overall at Intel National Science Fair.}
+            \resumeItem{Qualified for and attended the international fair as Egypt’s representative in Phoenix, Arizona.}
+            \resumeItemListEnd
+
+    \resumeSubheadingV{International Finalist at Nasser Bin Hamad (NBH) Award}{Oct 2017}
+\resumeSubHeadingListEnd
+
+\end{document}
